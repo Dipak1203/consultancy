@@ -12,8 +12,44 @@
   --main:#3e97d1;
   --color:#dd7b05;
   --text:#000;
+  --FontNav:17px;
 }
 
 .navbar__logo__img{
   width: 50%;
+}
+
+.navbar__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__container ul{
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.navbar__container ul li a{
+  text-decoration: none;
+  color: var(--main);
+  font-size: var(--FontNav);
+  font-weight: 700;
+}
+
+.navbar__container button{
+  padding: 10px;
+  background: var(--main);
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top:-10px;
+  transition: all .5s ease-in;
+  cursor: pointer;
+}
+.navbar__container button:hover{
+  transition: all .5s ease-in;
+  background: var(--color);
 }
