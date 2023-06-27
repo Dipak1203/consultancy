@@ -126,3 +126,16 @@
   color: var(--main);
   font-weight: 800;
 }
+
+
+/* Count section */
+
+.count__page{
+  height: 300px;
+  background: linear-gradient(rgba(60, 57, 57, 0.5), rgba(66, 64, 64, 0.5)), url('https://www.cntower.ca/sites/default/files/styles/16_9_scale_and_crop_large/public/images/explore-cn-tower%20.jpg?h=5ce0254a&itok=A_rLcJHm');
+  
+  background: linear-gradient(rgba(127, 141, 248, 0.5), rgba(127, 141, 248, 0.5)),url('https://www.cntower.ca/sites/default/files/styles/16_9_scale_and_crop_large/public/images/explore-cn-tower%20.jpg?h=5ce0254a&itok=A_rLcJHm');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
