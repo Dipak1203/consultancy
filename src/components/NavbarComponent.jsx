@@ -1,6 +1,7 @@
 import React from 'react'
 import '../App.css'
 import { NavLink } from 'react-router-dom'
+import Button from './Button'
 const NavbarComponent = () => {
   return (
     <section className='navbar__container row py-3'>
@@ -28,7 +29,7 @@ const NavbarComponent = () => {
                     <NavLink>Contact Us</NavLink>
                 </li>
                 <li>
-                    <button>Inquiry Now!</button>
+                    <Button title="title"/>
                 </li>
             </ul>
         </nav>
