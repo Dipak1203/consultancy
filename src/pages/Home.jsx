@@ -2,6 +2,7 @@ import React from 'react'
 import HeroSection from '../components/HeroSection'
 import CardComponent from '../components/CardComponent'
 import Choose from '../components/Choose'
+import Featured from '../components/Featured'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <HeroSection />
       <CardComponent />
       <Choose />
+      <Featured />
     </div>
   )
 }
