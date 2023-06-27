@@ -89,3 +89,14 @@
   font-weight: 800;
   color: var(--main);
 }
+
+
+/* Card Component */
+
+.cardComponent h5{
+  color: var(--main);
+}
+
+.cardComponent h4{
+  color: var(--color);
+}
