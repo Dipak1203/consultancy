@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 import Button from './Button'
 const NavbarComponent = () => {
   return (
-    <section className='navbar__container row py-3'>
+    <section className='navbar__container container-fluid row py-3'>
         <div className='navbar__logo col-md-3'>
             <img src='https://moonlightedu.com.np/uploads/company-profile/80_1679988352.png' alt='logo' className='navbar__logo__img w-100' />
         </div>
@@ -29,7 +29,7 @@ const NavbarComponent = () => {
                     <NavLink>Contact Us</NavLink>
                 </li>
                 <li>
-                    <Button title="title"/>
+                    <Button title="Inquiry Now!"/>
                 </li>
             </ul>
         </nav>

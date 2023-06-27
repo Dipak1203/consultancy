@@ -27,7 +27,7 @@
 
 .navbar__container ul{
   display: flex;
-  gap: 40px;
+  gap: 35px;
   list-style: none;
 }
 
@@ -38,18 +38,54 @@
   font-weight: 700;
 }
 
-.navbar__container button{
+ button{
   padding: 10px;
   background: var(--main);
   color: #fff;
   border: none;
   outline: none;
-  border-radius: 5px;
-  margin-top:-10px;
+  border-radius: 3px !important;
+  margin-top:-10px !important;
   transition: all .5s ease-in;
   cursor: pointer;
 }
 .navbar__container button:hover{
   transition: all .5s ease-in;
   background: var(--color);
+}
+
+
+/* Hero Section */
+
+.hero__section {
+  height: 80vh;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  margin-top: 20px;
+}
+
+.hero__section .heading h2{
+    color: var(--main);
+    text-transform: uppercase;
+}
+
+.hero__section .heading span{
+  color: var(--color);
+  font-size: 28px;
+}
+
+.hero__section img{
+  width: 100%;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.hero__text__section{
+  margin-top: 150px !important;
+}
+
+.hero__text__section .heading2{
+  font-weight: 800;
+  color: var(--main);
 }
