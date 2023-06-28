@@ -159,3 +159,42 @@
 .testimonials__section .name{
   color: var(--color);
 }
+
+
+
+/* Footer Section  */
+
+.footer__section img{
+  width: 100%;
+}
+
+.footer__section h5{
+  color: var(--main);
+  text-align: center;
+}
+
+.footer__section ul{
+  list-style: none;
+}
+.footer__section ul li{
+  margin-bottom: 10px;
+}
+
+
+.footer__section strong{
+  color: var(--color);
+}
+
+.footer__section .icon{
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.footer__section .icon li{
+  padding:10px !important ;
+  background:#3b5998;
+  border-radius: 48px;
+  color: #fff;
+  margin-top: -10px;
+}
