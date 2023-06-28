@@ -5,6 +5,7 @@ import Choose from '../components/Choose'
 import Featured from '../components/Featured'
 import About from '../components/about'
 import Count from '../components/Count'
+import Testimonial from '../components/Testimonial'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Featured />
       <About />
       <Count />
+      <Testimonial />
     </div>
   )
 }
