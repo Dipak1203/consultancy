@@ -6,6 +6,7 @@ import Featured from '../components/Featured'
 import About from '../components/about'
 import Count from '../components/Count'
 import Testimonial from '../components/Testimonial'
+import Partners from '../components/Partners'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <About />
       <Count />
       <Testimonial />
+      <Partners />
     </div>
   )
 }
